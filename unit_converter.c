@@ -1,3 +1,19 @@
+/******************************************************************************
+ ROJECT: Mini-Project 1: Simple Unit Converter CLI
+Build a menu-driven unit converter that runs in a loop until the user quits.
+Requirements:
+• Menu: 1) Celsius→Fahrenheit 2) Km→Miles 3) Kg→Lbs 4) Quit
+• Each option reads a float, converts, and prints the result
+• The loop repeats until option 4 is selected
+• Use a switch statement for the menu
+
+Formulas:
+miles = km * 0.621371
+lbs = kg * 2.20462
+
+Bonus: add Bytes→Kilobytes→Megabytes conversion
+*******************************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
